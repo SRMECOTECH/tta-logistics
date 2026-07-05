@@ -1,0 +1,5 @@
+.venv
+.env
+tests
+.claude
+.streamlit

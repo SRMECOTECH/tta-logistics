@@ -1,0 +1,44 @@
+<evaluation>
+  <!-- Verified against data/tta.db (June 2026 import, 6,299 trips) using the
+       tta_analytics_mcp tools. All questions are read-only and independent. -->
+  <qa_pair>
+    <question>Among transporters that ran at least 100 trips, which one has the lowest on-time delivery percentage?</question>
+    <answer>Utility Transport Company</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the single most anomalous trip by absolute z-score of transit time versus its lane average. What is its trip ID?</question>
+    <answer>28175710</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Which destination received the highest number of trips in the dataset?</question>
+    <answer>TIRUNINRAVUR</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many unique vehicles did the transporter "CJ DARCL Logistics Limited" use across all its trips?</question>
+    <answer>485</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Looking at the departure rhythm heatmap (weekday by hour of day), which weekday and hour combination has the most departures? Answer as weekday then hour in 24h format.</question>
+    <answer>Tuesday 23</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Excluding a metric's correlation with itself, which pair of numeric metrics has the strongest positive Pearson correlation in the dataset?</question>
+    <answer>plant_vivo_hours and dispatch_lead_hours</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the median transit time in hours for trips to the destination JAIPUR, rounded to one decimal?</question>
+    <answer>108.5</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Compare Own fleet versus Market vehicles: how many percentage points higher is the Own fleet's on-time delivery rate, rounded to the nearest whole point?</question>
+    <answer>8</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Which vehicle registration number accumulated the most speed violations in total across all of its trips?</question>
+    <answer>JH05DN1629</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many trips in the dataset ended with delivery status "Delay Delivery"?</question>
+    <answer>647</answer>
+  </qa_pair>
+</evaluation>
